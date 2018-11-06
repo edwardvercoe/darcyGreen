@@ -296,24 +296,24 @@ body {
 
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/991012/pexels-photo-991012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url(' ../images/IAmHorror8.jpg');
 }
 
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url(' ../images/ppp2.jpg');
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/92733/pexels-photo-92733.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url(' ../images/cabaret3.jpg');
 }
 
 .carousel-item--4 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1008732/pexels-photo-1008732.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url(' ../images/IAmHorror4.jpg');
 }
 
 .carousel-item--5 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1029614/pexels-photo-1029614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url(' ../images/ppp1.jpg');
 }
 
 
@@ -427,7 +427,7 @@ transform: translateX(0);
 }
 .gallery .item {
   width: 30%;
-  height: 150px;
+  height: 200px;
   background: #000;
   margin: 10px 10px;
   overflow: hidden;
