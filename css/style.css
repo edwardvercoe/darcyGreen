@@ -238,6 +238,14 @@ height: 1000px;
   }
 }
 
+@media all and (max-height: 480px) {
+  .header li a {
+	padding: 30px 0px 0px 0px;
+	font-size: 24px;	
+	}
+
+}
+
 /* ------------------------------------------
   RESPONSIVE NAV END
 --------------------------------------------- */
@@ -404,6 +412,7 @@ transform: translateX(0);
   width: 100vw;
 	max-width:900px;
   height: 90vh;
+	margin-top: 80px;
  
 }
 .title-section {
@@ -444,7 +453,7 @@ transform: translateX(0);
   opacity: 0;
 }
 .gallery .item .desc h4 {
-  color: #000;
+  color: #fff;
   font-weight: 300;
   text-transform: uppercase;
   opacity: 0;
@@ -610,6 +619,15 @@ transform: translateX(0);
   visibility: hidden;
 }
 
+@media screen and (max-width: 750px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
+
+
 /* ------------------------------------------
   GALLERY END
 --------------------------------------------- */
@@ -756,8 +774,41 @@ fieldset {
 /* ------------------------------------------
   ABOUT START
 --------------------------------------------- */
+.about-container {
 
+	max-width: 900px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	margin-top: 80px;
+}
 
+.darcy-img {
+	max-width: 45%;
+	float: left;
+	padding: 0px 20px;
+}
+.about-container h2 {
+	padding: 0px 20px;
+  line-height: 1.1;	
+	font-weight: 400;
+	font-size: 2em;
+}
+
+.about-container p {
+	padding: 0px 20px;
+  color: #8e8e8e;	
+  line-height: 1.5;
+	font-weight: 300;
+}
+@media all and (max-width: 780px) {
+
+	.darcy-img {
+		max-width: 100%;
+		float: none;
+	}
+}
 
 /* ------------------------------------------
   ABOUT END
