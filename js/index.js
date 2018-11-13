@@ -18,17 +18,19 @@ $('a').click(function(e){
 --------------------------------------------- */
 
 $(function(){
+	
+	  setInterval(function(){ 
+ 			current++;
+		  	var prev = current-1;
+		  var next =current;
+    setSlide(prev, next, current);  
+  },15000);
+	
   $('.carousel-item').eq(0).addClass('active');
   var total = $('.carousel-item').length;
   var current = 0;
-  
-  // auto transition
-  setInterval(function(){ 
-      var next=current;
-    current= current+1;
-    setSlide(next, current);  
-  }, 15000);
-  
+
+	
   $('#moveRight').on('click', function(){
     var next=current;
     current= current+1;
@@ -55,6 +57,7 @@ $(function(){
 
       },800);
     
+  // auto transition
 
     
     console.log('current '+current);
