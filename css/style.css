@@ -302,26 +302,24 @@ height: 1000px;
 
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url(' ../images/IAmHorror8.jpg');
+  background-image: url(' ../images/cabaret3.jpg');
+	
 }
 
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url(' ../images/ppp2.jpg');
+  background-image: url(' ../images/IAmHorror8.jpg');
+
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url(' ../images/cabaret3.jpg');
+  background-image: url(' ../images/IAmHorror4.jpg');
+
 }
 
 .carousel-item--4 .carousel-item__image{
-  background-image: url(' ../images/IAmHorror4.jpg');
-}
-
-.carousel-item--5 .carousel-item__image{
   background-image: url(' ../images/ppp1.jpg');
 }
-
 
 
 
