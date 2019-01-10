@@ -302,22 +302,34 @@ height: 1000px;
 
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url(' ../images/cabaret3.jpg');
-	
+  background-image: url( ../images/dsjFrontHero.jpg);	
+}
+
+.carousel-item--2 .carousel-item__image{
+  background-image: url( ../images/dsjFront.jpg);	
+}
+
+.carousel-item--3 .carousel-item__image{
+  background-image: url( ../images/dim1Front.jpg);	
 }
 
 
-.carousel-item--2 .carousel-item__image{
+.carousel-item--4 .carousel-item__image{
+  background-image: url(' ../images/cabaret3.jpg');	
+}
+
+
+.carousel-item--5 .carousel-item__image{
   background-image: url(' ../images/IAmHorror8.jpg');
 
 }
 
-.carousel-item--3 .carousel-item__image{
+.carousel-item--6 .carousel-item__image{
   background-image: url(' ../images/IAmHorror4.jpg');
 
 }
 
-.carousel-item--4 .carousel-item__image{
+.carousel-item--7 .carousel-item__image{
   background-image: url(' ../images/ppp1.jpg');
 }
 
@@ -434,10 +446,10 @@ transform: translateX(0);
     padding-right: 20px;
 }
 .gallery .item {
-  width: 100%;
+  width: 48%; /* Adjust for column and rows */
   height: 200px;
   background: #000;
-  margin: 10px 0;
+  margin: 5px;
   overflow: hidden;
 }
 .gallery .item .desc {
