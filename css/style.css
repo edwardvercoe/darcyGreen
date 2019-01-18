@@ -280,8 +280,8 @@ height: 1000px;
    -webkit-flex-shrink: 0;
     position: absolute;
     z-index: 0;
-  transition: 1.6s ease-in;
-   background-color:#eaeaea;
+
+   background-color: #f2f2f2;
 }
 
 
@@ -297,7 +297,7 @@ height: 1000px;
     background-size: cover;
    position:relative;
   transform: translateX(-100%);
-  transition: .6s all ease-in-out;
+
 }
 
 
@@ -481,7 +481,8 @@ transform: translateX(0);
 .gallery .item img {
   display: block;
   width: 100%;
-  max-width: 100%;
+	
+  min-width: 100%;
   transition: all 700ms ease;
   -webkit-transform: translate(0, 0) scale(1.3);
           transform: translate(0, 0) scale(1.3);
@@ -502,13 +503,7 @@ transform: translateX(0);
   -webkit-filter: sepia(1);
           filter: sepia(1);
 }
-@media all and (max-width: 780px) {
 
-  .gallery .item {
-
-    height: 240px;
-  }
-}
 @media all and (max-width: 580px) {
   .gallery .item {
     width: 100%;
@@ -629,9 +624,21 @@ transform: translateX(0);
   visibility: hidden;
 }
 
+.project-view .project-article-content p {
+	color: #525252;
+	font-size: 0.8em;
+}
+
+iframe {
+	min-height: 300px;
+}
+
+
 @media screen and (max-width: 750px) {
     iframe {
-        max-width: 100% !important;
+  		display: block;
+  		margin: 20px auto;
+  		max-width: 100% !important;
         width: auto !important;
         height: auto !important;
     }
@@ -762,6 +769,52 @@ fieldset {
 
 :-ms-input-placeholder {
   color: #888;
+}
+
+
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.social-container > a {
+
+	position: relative;	
+	text-decoration: none;
+	    color: #525252;
+}
+
+.social-container > a > p {
+	position: relative;
+	padding: 0;
+	margin: 0;
+
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);		
+}
+
+.social-container > a img {
+
+	vertical-align: middle;	
+	position: relative;
+	margin: 10px;
+	width: 32px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);	
+	transition: filter .3s ease;
+
+}
+
+.social-container > a img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);	
+}
+
+.social-container > a p:hover {
+color: #000;
 }
 
 @media all and (max-height: 520px) {

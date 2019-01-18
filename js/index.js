@@ -34,7 +34,7 @@ $(function(){
 		  	var prev = current-1;
 		  var next =current;
     setSlide(prev, next, current);  
-  },15000);
+  }, 5000);
 	
   $('.carousel-item').eq(0).addClass('active');
   var total = $('.carousel-item').length;
@@ -65,13 +65,13 @@ $(function(){
            $('.carousel-item').eq(slide).addClass('active');
       setTimeout(function(){
 
-      },800);
+      },1800);
     
   // auto transition
 
     
-    console.log('current '+current);
-    console.log('prev '+prev);
+//    console.log('current '+current);
+  //  console.log('prev '+prev);
   }
 });
 
