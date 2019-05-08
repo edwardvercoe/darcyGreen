@@ -817,30 +817,6 @@ fieldset {
 color: #000;
 }
 
-.resume {
-  width: 30px;
-  height: 30px;
-  background-color: rgb(59,59,59);
-  background-color: linear-gradient(222deg, rgba(59,59,59,1) 0%, rgba(98,98,98,1) 70%, rgba(176,176,176,1) 100%);
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 10px;
-	transition: all .3s ease;
-}
-
-.resume:hover {
-  background: rgb(255,0,0);
-  background-color: linear-gradient(222deg, rgba(255,0,0,1) 0%, rgba(255,70,70,1) 90%, rgba(255,255,255,1) 100%);
-
-}
-
-.resume > span {
-  color: #dddddd;
-}
-
-
 
 @media all and (max-height: 520px) {
 	#contact textarea {
